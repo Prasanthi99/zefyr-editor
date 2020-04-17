@@ -39,11 +39,7 @@ enum ZefyrToolbarAction {
 final kZefyrToolbarAttributeActions = <ZefyrToolbarAction, NotusAttributeKey>{
   ZefyrToolbarAction.bold: NotusAttribute.bold,
   ZefyrToolbarAction.italic: NotusAttribute.italic,
-  ZefyrToolbarAction.link: NotusAttribute.link,
-  ZefyrToolbarAction.heading: NotusAttribute.heading,
-  ZefyrToolbarAction.headingLevel1: NotusAttribute.heading.level1,
-  ZefyrToolbarAction.headingLevel2: NotusAttribute.heading.level2,
-  ZefyrToolbarAction.headingLevel3: NotusAttribute.heading.level3,
+  ZefyrToolbarAction.link: NotusAttribute.link
 };
 
 /// Allows customizing appearance of [ZefyrToolbar].
